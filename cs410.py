@@ -17,14 +17,15 @@ import string
 import pytesseract                      # OCR utility
 from pdf2image import convert_from_path # converts PDF to image
 from spellchecker import SpellChecker   # identifies gibberish in the OCR conversion
-import pyautogui                        # allows us to enter data into VistA via the keyboard
 import os                               # filesystem access
 
+# BM25 text retreival engine
 from whoosh import index
 from whoosh.fields import Schema, TEXT, ID
 from whoosh.qparser import QueryParser
 #from whoosh.analysis import StemmingAnalyzer
 
+# simple python GUI components (for the search window)
 import tkinter
 from tkinter import scrolledtext
 from tkhtmlview import HTMLScrolledText
