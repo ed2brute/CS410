@@ -4,4 +4,4 @@ Hospitals often employ third-party pathology services to make medical diagnoses 
 
 ## Files
 * cs410.py :: the project python application
-* cs410 - example in use.mp4 :: a video showing the application in use (view raw file to launch video)
+* cs410demo.mp4 :: a video showing the application in use (view raw file to launch video)
